@@ -5,8 +5,8 @@
 ## <font color=#5BBBBB>2. 启用苹果账号</font>
 &ensp; | first acount: | second acount:
 -|-|-
-<h4>acount:</h4>|<p><font color=#CCCCCC>#######</font>@qq.com</p>|<font color=#CCCCCC>#######</font>@163.com</p>
-<h4>password:</h4>|<font color=#777777>*************</font>|<font color=#777777>*************</font>
+acount:|<p><font color=#CCCCCC>#######</font>@qq.com</p>|<font color=#CCCCCC>#######</font>@163.com</p>
+password:|<font color=#777777>*************</font>|<font color=#777777>*************</font>
 
 ## <font color=#5BBBBB>3. 常用Applications</font>
    - 办公软件<br>
