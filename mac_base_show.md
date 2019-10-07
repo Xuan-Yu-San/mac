@@ -72,10 +72,10 @@ password:|<font color=#777777>*************</font>|<font color=#777777>*********
     
     修改前|修改后
     -|-
-    <p>\# anon-access = read</p>|anon-access = read
-    <p>\# auth-access = write</p>|auth-access = write
-    <p>\# password-db = passwd</p>|password-db = passwd
-    <p>\# authz-db = authz</p>|authz-db = authz
+    \#\ anon-access = read|anon-access = read
+    \#\ auth-access = write|auth-access = write
+    \#\ password-db = passwd|password-db = passwd
+    \#\ authz-db = authz|authz-db = authz
     
     ```shell
     vim passwd
