@@ -71,10 +71,10 @@ password:|<font color=#777777>*************</font>|<font color=#777777>*********
     在文本里取消相应注释
     修改前|修改后
     -|-
-    # anon-access = read|anon-access = read
-    # auth-access = write|auth-access = write
-    # password-db = passwd|password-db = passwd
-    # authz-db = authz|authz-db = authz
+    \# anon-access = read|anon-access = read
+    \# auth-access = write|auth-access = write
+    \# password-db = passwd|password-db = passwd
+    \# authz-db = authz|authz-db = authz
     ```shell
     vim passwd
     ```
