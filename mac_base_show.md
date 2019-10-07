@@ -69,12 +69,14 @@ password:|<font color=#777777>*************</font>|<font color=#777777>*********
     vim svnserve.conf
     ```
     在文本里取消相应注释
+    
     修改前|修改后
     -|-
-    \# anon-access = read|anon-access = read
-    \# auth-access = write|auth-access = write
-    \# password-db = passwd|password-db = passwd
-    \# authz-db = authz|authz-db = authz
+    <p>\# anon-access = read</p>|anon-access = read
+    <p>\# auth-access = write</p>|auth-access = write
+    <p>\# password-db = passwd</p>|password-db = passwd
+    <p>\# authz-db = authz</p>|authz-db = authz
+    
     ```shell
     vim passwd
     ```
