@@ -122,7 +122,7 @@ password:|<font color=#777777>*************</font>|<font color=#777777>*********
     <a href='http://www.baidu.com/baidu.php?url=af0000aF4eAvq9HI8k98CVBYwm_E33hJq-8ilH47WtobAKrkAwRjiFJdAHhpPsbuEi16g3aotWL98I-1ivUwh5CMIofIZOLE0iN9Cta1jq8RlQ9_Ld5TV0-28rvTyzMQhNySinrluGDyTpgPl_pPQvDVQp7h2tgtQdhCskc-Pkb_5VB0-Lwosiv_Wg870h8b13c7ouCbn4Fcgevgz6.Db_ipymxQVIhqhKnPiTvW2Bjw-Y_ssQDk_eQPLA1x_4X5QIJyAp7B8E_LU-0.U1Yz0ZDqUy7WYrMD3oEl_QQg_ZIGUWDs0ZKGm1Ys0ZfqUy7W_QQg_PjGkr2eS6KGUHYznjf0u1dEugK1n0KdpHdBmy-bIykV0ZKGujYk0APGujY1rjc0UgfqnH0kPdtknjD4g1nknWKxn1msnfKopHYs0ZFY5H6LnsK-pyfqnHfYPdtznH03nNtzrHRzndtzrHRvr7tzrHcznNtznWDvn0KBpHYkPHNxnHR3g1csP0KVm1YkrjnYrjfYn1D4g1Dsnj7xnH0zg100TgKGujYs0Z7Wpyfqn0KzuLw9u1Ys0A7B5HKxn0K-ThTqn0KsTjYs0A4vTjYsQW0snj0snj0s0AdYTjYs0AwbUL0qn0KzpWYs0Aw-IWdsmsKhIjYs0ZKC5H00ULnqn0KBI1YknfK8IjYs0ZPl5fK9TdqGuAnqTZnVmLf0pywW5Nwj0ZwdT1Y1rj6LnjTdPHTdrjDvPW64njR10ZF-TgfqnHRLnjfvn1RsPjn1n0K1pyfqmHcsnHfsnH0snjDsP1wBnfKWTvYqwWfLPHm3nYfzrDuAPYFKfsK9m1Yk0ZK85H00TydY5H00Tyd15H00XMfqn0KVmdqhThqV5HKxn7tsg100uA78IyF-gLK_my4GuZnqn7tsg1n4rjTzPHKxn0Ksmgwxuhk9u1Ys0AwWpyfqn0K-IA-b5iYk0A71TAPW5H00IgKGUhPW5H00Tydh5HDv0AuWIgfqn0KGTvP_5H00XMK_Ignqn0K9uAu_myTqnfK_uhnqn0KEIjYs0AqzTZfqnanscznsc10WnansQW0snj0snansczns0APzm1YYnW6s&word=mac虚拟机安装win10&ck=7422.14.9999.388.330.440.153.548&shh=www.baidu.com&sht=84053098_3_dg&us=2.0.1.0.5.2586.0'>如果确实安装不了（没有广告费）</a>
 2. 双系统
    
-    <a href='https://raw.githubusercontent.com/Xuan-Yu-San/mac/master/doublesystem/index.html'>安装教程</a>
+    <a href='https://raw.githack.com/Xuan-Yu-San/mac/master/doublesystem/index.html'>安装教程</a>
 
 ## <font color=#5BBBBB>6. 库建立</font>
 - 标准配置库
