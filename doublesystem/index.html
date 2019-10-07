@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>苹果Mac使用Boot Camp安装Win10系统教程（图文+视频） - Windows10.Pro</title>
+  <meta name="Description" content="关于苹果Mac笔记本如何安装Windows10系统，国内的威锋网一直有很专业的研究，MS酋长之前就已经分享过威锋网出品的《Mac使用Parallels 10和Boot Camp安装Win10系统教程》，今天再分享一个同样来自威锋的更详细的、并且有操作视频的Mac使用Boot Camp安 …">
+  <meta name="Keywords" content="Win10系统安装教程, 苹果Mac">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1561.6">
+  <style type="text/css">
+    body {background-color: #f1f1f1}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 36.0px; font: 30.0px 'Helvetica Neue'; color: #000000; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 14.7px 'Microsoft YaHei'; color: #666666; -webkit-text-stroke: #666666}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 38.0px; font: 12.0px 'Microsoft YaHei'; color: #aaaaaa; -webkit-text-stroke: #aaaaaa}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px 'Helvetica Neue'; color: #777777; -webkit-text-stroke: #777777}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; line-height: 18.0px; font: 12.0px 'Helvetica Neue'; color: #777777; -webkit-text-stroke: #777777}
+    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 24.0px; font: 12.0px 'Helvetica Neue'; color: #777777; -webkit-text-stroke: #777777}
+    p.p13 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Roboto; color: #000000; -webkit-text-stroke: #000000; background-color: #e6e7e8; min-height: 14.0px}
+    p.p14 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Roboto; color: #000000; -webkit-text-stroke: #000000; background-color: #ffffff; min-height: 14.0px}
+    p.p15 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Roboto; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    p.p16 {margin: 0.0px 0.0px 24.0px 0.0px; line-height: 24.0px; font: 16.0px 'Microsoft YaHei'; color: #333333; -webkit-text-stroke: #333333}
+    p.p17 {margin: 0.0px 0.0px 24.0px 0.0px; line-height: 24.0px; font: 16.0px 'Microsoft YaHei'; color: #111111; -webkit-text-stroke: #111111}
+    p.p19 {margin: 0.0px 0.0px 24.0px 0.0px; text-align: center; line-height: 24.0px; font: 16.0px 'Microsoft YaHei'; color: #0066cc; -webkit-text-stroke: #0066cc}
+    p.p20 {margin: 0.0px 0.0px 24.0px 0.0px; line-height: 24.0px; font: 16.0px 'Microsoft YaHei'; color: #0066cc; -webkit-text-stroke: #0066cc}
+    p.p21 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p22 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; background-color: #ffffff; min-height: 14.0px}
+    p.p23 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    p.p24 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 24.0px; font: 16.0px 'Microsoft YaHei'; color: #333333; -webkit-text-stroke: #333333}
+    p.p25 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 21.0px; font: 18.0px 'Noto Sans SC Bold'; color: #333333; -webkit-text-stroke: #333333}
+    p.p26 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.0px; font: 11.0px 'Noto Sans SC Regular'; color: #ffffff; -webkit-text-stroke: #ffffff; background-color: #b3b3b3}
+    p.p27 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 17.0px; font: 11.0px 'Noto Sans SC Regular'; color: #b3b3b3; -webkit-text-stroke: #b3b3b3}
+    p.p28 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 17.0px; font: 11.0px Arial; color: #b3b3b3; -webkit-text-stroke: #b3b3b3}
+    p.p29 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 17.0px; font: 12.0px 'Songti SC'; color: #000000; -webkit-text-stroke: #000000; background-color: #ffffff; min-height: 17.0px}
+    p.p30 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 17.0px; font: 12.0px 'Songti SC'; color: #000000; -webkit-text-stroke: #000000; min-height: 17.0px}
+    p.p33 {margin: 0.0px 0.0px 16.0px 0.0px; line-height: 24.0px; font: 16.0px 'Microsoft YaHei'; color: #333333; -webkit-text-stroke: #333333}
+    p.p34 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 24.0px; font: 16.0px 'Microsoft YaHei'; color: #333333; -webkit-text-stroke: #333333; min-height: 21.0px}
+    p.p43 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 14.0px 'Helvetica Neue'; color: #000000; -webkit-text-stroke: #000000}
+    p.p44 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px 'Microsoft YaHei'; color: #666666; -webkit-text-stroke: #666666}
+    p.p45 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 20.0px; font: 12.0px 'Microsoft YaHei'; color: #0066cc; -webkit-text-stroke: #0066cc}
+    p.p46 {margin: 0.0px 0.0px 0.0px 5.0px; line-height: 20.0px; font: 12.0px 'Microsoft YaHei'; color: #666666; -webkit-text-stroke: #666666}
+    p.p47 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px 'Microsoft YaHei'; color: #666666; -webkit-text-stroke: #666666; background-color: #ffffff; min-height: 16.0px}
+    p.p48 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 12.0px 'Microsoft YaHei'; color: #333333; -webkit-text-stroke: #333333; min-height: 16.0px}
+    p.p49 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 12.0px 'Microsoft YaHei'; color: #0066cc; -webkit-text-stroke: #0066cc; min-height: 16.0px}
+    p.p50 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px 'Microsoft YaHei'; color: #666666; -webkit-text-stroke: #666666; min-height: 16.0px}
+    li.li4 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 38.0px; font: 14.0px 'Helvetica Neue'; color: #aaaaaa; -webkit-text-stroke: #aaaaaa}
+    li.li5 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 38.0px; font: 14.0px 'Helvetica Neue'; color: #ffffff; -webkit-text-stroke: #ffffff}
+    li.li10 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 34.0px; font: 28.0px Roboto; color: #37474f; -webkit-text-stroke: #37474f}
+    li.li11 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 20.0px; font: 15.0px Roboto; color: #888888; -webkit-text-stroke: #888888}
+    li.li12 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 33.0px; font: 14.0px Roboto; color: #ffffff}
+    li.li21 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    li.li31 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 24.0px; font: 16.0px 'Microsoft YaHei'; color: #0066cc; -webkit-text-stroke: #0066cc}
+    li.li35 {margin: 0.0px 0.0px 0.0px 0.0px; -webkit-hyphens: auto; line-height: 18.0px; font: 12.0px 'Microsoft YaHei'; color: #666666; -webkit-text-stroke: #666666}
+    li.li36 {margin: 0.0px 0.0px 0.0px 0.0px; -webkit-hyphens: auto; line-height: 18.0px; font: 14.0px 'Helvetica Neue'; color: #222222; -webkit-text-stroke: #222222}
+    li.li37 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 17.0px; font: 11.0px Arial; color: #ffffff; -webkit-text-stroke: #ffffff}
+    li.li38 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.4px; font: 11.0px Arial; color: #ffffff; -webkit-text-stroke: #ffffff}
+    li.li39 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.4px; font: 11.0px Arial; color: #000000; -webkit-text-stroke: #000000}
+    li.li40 {margin: 0.0px 0.0px 0.0px 0.0px; -webkit-hyphens: auto; line-height: 18.0px; font: 12.0px 'Microsoft YaHei'; color: #0066cc; -webkit-text-stroke: #0066cc}
+    li.li41 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #0000ee; -webkit-text-stroke: #666666}
+    li.li42 {margin: 0.0px 0.0px 18.0px 0.0px; -webkit-hyphens: auto; line-height: 18.0px; font: 12.0px 'Microsoft YaHei'; color: #666666}
+    span.s1 {font-kerning: none; background-color: #ffffff}
+    span.s2 {font-kerning: none; color: #666666; background-color: #ffffff; -webkit-text-stroke: 0px #666666}
+    span.s3 {font-kerning: none; background-color: #000000}
+    span.s4 {background-color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s5 {font-kerning: none}
+    span.s6 {font-kerning: none; color: #ffffff}
+    span.s7 {font: 12.0px 'Helvetica Neue'; font-kerning: none; color: #777777; -webkit-text-stroke: 0px #777777}
+    span.s8 {background-color: #ffffff; -webkit-text-stroke: 0px #000000}
+    span.s9 {font: 15.0px Roboto; font-kerning: none; color: #888888}
+    span.s10 {font-kerning: none; color: #000000; background-color: #ffffff; -webkit-text-stroke: 0px #000000}
+    span.s11 {font-kerning: none; color: #646464; -webkit-text-stroke: 0px #646464}
+    span.s12 {background-color: #0088ff}
+    span.s13 {text-decoration: underline ; font-kerning: none; -webkit-text-stroke: 0px #ffffff}
+    span.s14 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s15 {font: 16.0px 'Microsoft YaHei'; text-decoration: underline ; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s16 {font: 16.0px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; background-color: transparent; -webkit-text-stroke: 0px #0066cc}
+    span.s17 {font-kerning: none; color: #333333; background-color: #ffffff; -webkit-text-stroke: 0px #333333}
+    span.s18 {text-decoration: underline ; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s19 {font: 16.0px 'Microsoft YaHei'; text-decoration: underline ; font-kerning: none; color: #0066cc}
+    span.s20 {font: 12.0px 'Helvetica Neue'; text-decoration: underline ; font-kerning: none; color: #777777; -webkit-text-stroke: 0px #777777}
+    span.s21 {font-kerning: none; color: #ff4b33; background-color: #ffffff; -webkit-text-stroke: 0px #ff4b33}
+    span.s22 {font: 16.0px 'Microsoft YaHei'; font-kerning: none; color: #333333; background-color: #ffffff; -webkit-text-stroke: 0px #333333}
+    span.s23 {-webkit-text-stroke: 0px #000000}
+    span.s24 {font: 12.0px 'Microsoft YaHei'; font-kerning: none; color: #666666; -webkit-text-stroke: 0px #666666}
+    span.s25 {font: 12.0px 'Songti SC'; color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s26 {font: 12.0px 'Songti SC'; font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s27 {font: 17.0px Arial; font-kerning: none; background-color: #ffffff}
+    span.s28 {font: 17.0px Arial; font-kerning: none}
+    span.s29 {color: #ffffff; background-color: #ffffff; -webkit-text-stroke: 0px #000000}
+    span.s30 {font-kerning: none; color: #ffffff; background-color: #ffffff; -webkit-text-stroke: 0px #ffffff}
+    span.s31 {font-kerning: none; color: #ffffff; -webkit-text-stroke: 0px #ffffff}
+    span.s32 {font-kerning: none; background-color: #ffffff; text-shadow: 1.0px 1.0px 0.0px rgba(255, 255, 255, 0.098)}
+    span.s33 {font: 12.0px 'Songti SC'; font-kerning: none}
+    span.s34 {font: 12.0px 'Songti SC'; font-kerning: none; background-color: #ffffff}
+    span.s35 {font: 12.0px Times; font-kerning: none}
+    span.s36 {font: 12.0px 'Microsoft YaHei'; font-kerning: none; color: #0066cc}
+    span.s37 {font: 12.0px Times; font-kerning: none; color: #0000ee; -webkit-text-stroke: 0px #0000ee}
+    span.s38 {font: 12.0px 'Microsoft YaHei'; font-kerning: none; color: #666666}
+    span.s39 {font: 14.4px 'Microsoft YaHei'; background-color: #ffffff; -webkit-text-stroke: 0px #000000}
+    span.s40 {font: 18.9px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s41 {font: 15.5px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s42 {font: 14.9px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s43 {font: 13.8px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s44 {font: 14.1px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s45 {font: 11.9px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s46 {font: 14.4px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s47 {font: 18.2px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s48 {font: 13.7px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s49 {font: 15.8px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s50 {font: 29.3px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s51 {font: 15.1px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s52 {font: 11.2px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s53 {font: 12.9px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s54 {font: 11.7px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s55 {font: 19.2px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s56 {font: 11.0px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s57 {font: 12.1px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s58 {font: 17.2px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s59 {font: 17.6px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s60 {font: 14.5px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s61 {font: 19.1px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s62 {font: 18.8px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s63 {font: 20.6px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s64 {font: 16.9px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s65 {font: 21.2px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s66 {font: 10.7px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s67 {font: 12.4px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s68 {font: 16.5px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s69 {font: 15.9px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s70 {font: 13.2px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s71 {font: 12.8px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s72 {font: 24.5px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; -webkit-text-stroke: 0px #0066cc}
+    span.s73 {font-kerning: none; -webkit-text-stroke: 0px #666666}
+    span.s74 {font: 12.0px Times; font-kerning: none; color: #000000}
+    span.s75 {font: 14.0px 'Helvetica Neue'; font-kerning: none}
+    span.s76 {font: 12.0px 'Microsoft YaHei'; font-kerning: none; color: #0066cc; background-color: transparent; -webkit-text-stroke: 0px #0066cc}
+    span.s77 {text-decoration: underline ; font-kerning: none}
+    table.t1 {border-collapse: collapse}
+    td.td1 {width: 726.0px}
+    td.td2 {width: 522.0px}
+    td.td3 {width: 485.0px}
+    td.td4 {width: 204.0px}
+    td.td5 {width: 334.3px; margin: 0.5px 0.5px 0.5px 0.5px}
+    td.td6 {width: 300.0px; margin: 0.5px 0.5px 0.5px 0.5px}
+    ul.ul1 {list-style-type: none}
+    ul.ul2 {list-style-type: square}
+  </style>
+</head>
+<body>
+<h1 style="margin: 0.0px 0.0px 0.0px 0.0px; line-height: 27.3px; font: 21.0px 'Helvetica Neue'; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>苹果Mac使用Boot Camp安装Win10系统教程（图文+视频）</b></span></h1>
+
+<p class="p15"><span class="s5"></span><br></p>
+<p class="p15"><span class="s5"></span><br></p>
+<p class="p16"><span class="s1">关于苹果Mac笔记本如何安装Windows10系统，国内的威锋网一直有很专业的研究，MS酋长之前就已经分享过威锋网出品的《<a href="https://www.windows10.pro/mac-install-win10-parallels-10-boot-camp/"><span class="s15">Mac使用Parallels 10和Boot Camp安装Win10系统教程</span></a>》，今天再分享一个同样来自威锋的更详细的、并且有操作视频的Mac使用Boot Camp安装Win10系统教程，想要体验Windows10的果粉们下面一起来看一下：</span></p>
+<p class="p17"><span class="s1">尽管 macOS 的功能已经非常完善，但在一些场景下，或许我们还需要一个 Windows 系统。要在 macOS Sierra 上安装 Windows 10 其实并不困难，只不过有点费时，你只需要下载 Windows 10 的 ISO 和使用 Boot Camp 助理就可以了。不过对于新手来说，还是有一些值得注意的事项，今天我们就一起来学习一下。当然，在进行系统级的操作之前，记得备份好你的 Mac。</span></p>
+<h3 style="margin: 0.0px 0.0px 20.0px 0.0px; line-height: 28.1px; font: 18.7px 'Microsoft YaHei'; color: #000000; -webkit-text-stroke: #000000"><span class="s1">支持 Windows 10 的 Mac</span></h3>
+<p class="p16"><span class="s1">MacBook Pro</span></p>
+<p class="p16"><span class="s1">MacBook Pro (15-inch, Late 2016)</span><span class="s5"><br>
+</span><span class="s1">MacBook Pro (13-inch, Late 2016, 4个 Thunderbolt 3 接口)</span><span class="s5"><br>
+</span><span class="s1">MacBook Pro (13-inch, Late 2016, 2个 Thunderbolt 3 接口)</span><span class="s5"><br>
+</span><span class="s1">MacBook Pro (Retina, 15-inch, Mid 2015)</span><span class="s5"><br>
+</span><span class="s1">MacBook Pro (Retina, 13-inch, Early 2015)</span><span class="s5"><br>
+</span><span class="s1">MacBook Pro (Retina, 15-inch, Mid 2014)</span><span class="s5"><br>
+</span><span class="s1">MacBook Pro (Retina, 13-inch, Mid 2014)</span><span class="s5"><br>
+</span><span class="s1">MacBook Pro (Retina, 15-inch, Late 2013)</span><span class="s5"><br>
+</span><span class="s1">MacBook Pro (Retina, 13-inch, Late 2013)</span><span class="s5"><br>
+</span><span class="s1">MacBook Pro (Retina, 15-inch, Early 2013)</span><span class="s5"><br>
+</span><span class="s1">MacBook Pro (Retina, 13-inch, Early 2013)</span><span class="s5"><br>
+</span><span class="s1">MacBook Pro (Retina, 13-inch, Late 2012)</span><span class="s5"><br>
+</span><span class="s1">MacBook Pro (Retina, Mid 2012)</span><span class="s5"><br>
+</span><span class="s1">MacBook Pro (13-inch, Mid 2012)</span><span class="s5"><br>
+</span><span class="s1">MacBook Pro (15-inch, Mid 2012)</span></p>
+<p class="p16"><span class="s1">MacBook Air</span></p>
+<p class="p16"><span class="s1">MacBook Air (13-inch, Early 2015)</span><span class="s5"><br>
+</span><span class="s1">MacBook Air (11-inch, Early 2015)</span><span class="s5"><br>
+</span><span class="s1">MacBook Air (13-inch, Early 2014)</span><span class="s5"><br>
+</span><span class="s1">MacBook Air (11-inch, Early 2014)</span><span class="s5"><br>
+</span><span class="s1">MacBook Air (13-inch, Mid 2013)</span><span class="s5"><br>
+</span><span class="s1">MacBook Air (11-inch, Mid 2013)</span><span class="s5"><br>
+</span><span class="s1">MacBook Air (13-inch, Mid 2012)</span><span class="s5"><br>
+</span><span class="s1">MacBook Air (11-inch, Mid 2012)</span></p>
+<p class="p16"><span class="s1">MacBook</span></p>
+<p class="p16"><span class="s1">MacBook (Retina, 12-inch, Early 2016)</span><span class="s5"><br>
+</span><span class="s1">MacBook (Retina, 12-inch, Early 2015)</span></p>
+<p class="p16"><span class="s1">iMac</span></p>
+<p class="p16"><span class="s1">iMac (Retina 5K, 27-inch, Late 2015)</span><span class="s5"><br>
+</span><span class="s1">iMac (Retina 4K, 21.5-inch, Late 2015)</span><span class="s5"><br>
+</span><span class="s1">iMac (21.5-inch, Late 2015)</span><span class="s5"><br>
+</span><span class="s1">iMac (Retina 5k, 27-inch, Mid 2015)</span><span class="s5"><br>
+</span><span class="s1">iMac (Retina 5K, 27-inch, Late 2014)</span><span class="s5"><br>
+</span><span class="s1">iMac (21.5-inch, Mid 2014)</span><span class="s5"><br>
+</span><span class="s1">iMac (27-inch, Late 2013)</span><span class="s5"><br>
+</span><span class="s1">IMac (21.5-inch, Late 2013)</span><span class="s5"><br>
+</span><span class="s1">iMac (27-inch, Late 2012)</span><span class="s5"><br>
+</span><span class="s1">iMac (21.5-inch, Late 2012)</span></p>
+<p class="p16"><span class="s1">Mac mini</span></p>
+<p class="p16"><span class="s1">Mac mini (Late 2014)</span><span class="s5"><br>
+</span><span class="s1">Mac mini Server (Late 2012)</span><span class="s5"><br>
+</span><span class="s1">Mac mini (Late 2012)</span></p>
+<p class="p16"><span class="s1">Mac Pro</span></p>
+<p class="p16"><span class="s1">Mac Pro (Late 2013)</span></p>
+<p class="p16"><span class="s1">做好准备工作后，就可以开始进入正题了。</span></p>
+<h3 style="margin: 0.0px 0.0px 20.0px 0.0px; line-height: 28.1px; font: 18.7px 'Microsoft YaHei'; color: #000000; -webkit-text-stroke: #000000"><span class="s1">下载 Windows 10 ISO</span></h3>
+<p class="p16"><span class="s1">1.访问微软的官网（<a href="https://www.microsoft.com/en-us/software-download/windows10ISO?tduid=(5194966352ef49d6cdb055d90c81dac6)(256380)(2459594)(TnL5HPStwNw-16hjssFtSkCjpn3D9Zzd8Q)()"><span class="s15">点击这里</span></a>）来下载 Windows 10 系统的 ISO 安装文件。版本选择 Windows 10，然后点击确认。接下来选择语言，并确认。最后，点击 64 位下载按钮来开始 ISO 文件下载。</span></p>
+<h3 style="margin: 0.0px 0.0px 20.0px 0.0px; line-height: 28.1px; font: 18.7px 'Microsoft YaHei'; color: #000000; -webkit-text-stroke: #000000"><span class="s1">启动 Boot Camp 助理</span></h3>
+<p class="p16"><span class="s1">2.ISO 文件下载完成后，运行 macOS 中的 Boot Camp 助理并点击继续。</span></p>
+<p class="p16"><span class="s1">3.选择刚刚下载好的 ISO 文件。</span></p>
+<p class="p16"><span class="s1">4.根据需要来调整 Boot Camp 的分区大小，除了要留下足够的空间给 macOS 使用之外，你还需要考虑要给 Windows 10 分配多少空间，以方便日后有更多的操作空间。如果你要在 Windows 10 系统中运行大量应用和游戏的话，那就多分配一点吧。</span></p>
+<p class="p19"><span class="s5"><a href="https://www.windows10.pro/wp-content/uploads/2017/02/1486438494-2717-img201702062016571.jpg"><img src="1486438494-2717-img201702062016571.jpg" alt="1486438494-2717-img201702062016571.jpg"><span class="s16"></span></a></span></p>
+<p class="p16"><span class="s1">5.选择好 ISO 文件和调整完分区大小后，点击安装。Boot Camp 助理将会下载 Windows 支持软件、对磁盘进行分区以及复制必要的 Windows 文件来开始下一步。接下来会要求你输入 Mac 的管理密码，然后 macOS 就会重启进入 Windows 的安装阶段。</span></p>
+<p class="p19"><span class="s5"><a href="https://www.windows10.pro/wp-content/uploads/2017/02/1486438493-5505-img201702062016572.jpg"><img src="1486438493-5505-img201702062016572.jpg" alt="1486438493-5505-img201702062016572.jpg"><span class="s16"></span></a></span></p>
+<h3 style="margin: 0.0px 0.0px 20.0px 0.0px; line-height: 28.1px; font: 18.7px 'Microsoft YaHei'; color: #000000; -webkit-text-stroke: #000000"><span class="s1">安装 Windows 10</span></h3>
+<p class="p16"><span class="s1">6.重启后你就会看到 Windows 的 logo 出现，选择要安装的语言，时间和国家格式，以及键盘或输入设置，然后点击下一步。</span></p>
+<p class="p16"><span class="s1">7.接下来会到达激活窗口，如果你已经拥有一个 Windows 10 的产品密匙，输入即可。反之，则点击底部的“我没有产品密匙”。</span></p>
+<p class="p16"><span class="s1">8.这时候，你可以选择 Windows 10 Pro 或 Windows 10 Home。如果你想以最经济的方式体验 Windows 10，那么就选择 Home 版。如果你计划要深入了解 Windows 10 的话，那么可以选择 Pro 版。</span></p>
+<p class="p16"><span class="s1">9.同意相关条款后，点击下一步即可。</span></p>
+<p class="p16"><span class="s1">10.安装过程将会正式开始，Windows 安装将会复制必要的文件，并安装相关特性和更新。安装需要一段时间，完成安装后，Mac 会在 10 秒后自动重启。</span></p>
+<p class="p16"><span class="s1">11.重启后，Windows 的 logo 将会再次出现，安装会继续并再次重启。最后，你会看到蓝色的界面，你可以选择使用快速设置，但建议用户点击自定义按钮来根据自己的需要进行设置。然后，进入下一个页面。</span></p>
+<p class="p19"><span class="s5"><a href="https://www.windows10.pro/wp-content/uploads/2017/02/1486438493-1084-img201702062016573.jpg"><img src="1486438493-1084-img201702062016573.jpg" alt="1486438493-1084-img201702062016573.jpg"><span class="s16"></span></a></span></p>
+<p class="p16"><span class="s1">12.系统会要求你建立一个账户，创建以后点击下一步即可。</span></p>
+<p class="p16"><span class="s1">13.接下来是设置语音助手 Cortana 的界面，你可以在此开启 Cortana，也可以跳过。</span></p>
+<p class="p19"><span class="s5"><a href="https://www.windows10.pro/wp-content/uploads/2017/02/1486438493-6254-img201702062016574.jpg"><img src="1486438493-6254-img201702062016574.jpg" alt="1486438493-6254-img201702062016574.jpg"><span class="s16"></span></a></span></p>
+<p class="p16"><span class="s1">14.Windows 将会完成设置过程，用户将会进入 Windows 10 桌面。根据系统提示下一步就可以完成设置，如果中途弹出任何的驱动安装请求，安装即可。完成后，勾选“重启系统”，点击完成来重启你的机器。</span></p>
+<p class="p16"><span class="s1">15.重启后，点击 Wi-Fi 图标并连接到本地的 Wi-Fi 网络。</span></p>
+<h3 style="margin: 0.0px 0.0px 20.0px 0.0px; line-height: 28.1px; font: 18.7px 'Microsoft YaHei'; color: #000000; -webkit-text-stroke: #000000"><span class="s1">苹果软件更新</span></h3>
+<p class="p16"><span class="s1">注意：接下来的一步非常重要，因为它将会升级到最新的声卡驱动。最初的驱动被认为会引起扬声器出现问题，所以升级非常重要。</span></p>
+<p class="p16"><span class="s1">16.点击开始按钮并选择苹果软件更新，选择出现的任意更新，然后点击安装。相关的软件安装出现，也一并安装吧。</span></p>
+<p class="p16"><span class="s1">17.确保安装完成，出现苹果软件更新重启窗口后点击同意，你的 Mac 就会重启，然后进入到 Windows 10。</span></p>
+<p class="p19"><span class="s5"><a href="https://www.windows10.pro/wp-content/uploads/2017/02/1486438494-7681-img201702062016585.jpg"><img src="1486438494-7681-img201702062016585.jpg" alt="1486438494-7681-img201702062016585.jpg"><span class="s16"></span></a></span></p>
+<p class="p16"><span class="s1">18.最后，进入开始-设置-更新&amp;安全，然后点击检查更新按钮。Windows 将会下载任何的所需更新，并会让你的更新后进行重启。点击重启来完成安装并重启。</span></p>
+<p class="p19"><span class="s5"><a href="https://www.windows10.pro/wp-content/uploads/2017/02/1486438494-6699-img201702062016586.jpg"><img src="1486438494-6699-img201702062016586.jpg" alt="1486438494-6699-img201702062016586.jpg"><span class="s16"></span></a></span></p>
+<p class="p16"><span class="s1">完成安装后，每次开机的时候你就可以在两个系统之间进行选择了。</span></p>
+<p class="p16"><span class="s1">Mac使用Boot Camp安装Win10视频教程：<a href="http://yuntv.letv.com/bcloud.html?uu=0330d88456&amp;vu=60a778c8d1&amp;width=600&amp;pu=35f7918307&amp;height=400"><span class="s15">观看地址</span></a></span></p>
+<p class="p20"><span class="s17">Via： 威锋网 vanfam <a href="http://www.feng.com/iPhone/news/2017-02-06/How-to-use-the-Boot-Camp-the-assistant-to-install-Win-10-in-Mac_669036.shtml"><span class="s18">http://www.feng.com/iPhone/news/2017-02-06/How-to-use-the-Boot-Camp-the-assistant-to-install-Win-10-in-Mac_669036.shtml</span></a></span></p>
+
+</body>
+</html>
